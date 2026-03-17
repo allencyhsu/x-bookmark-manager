@@ -1,0 +1,14 @@
+[project]
+name = "xbm"
+version = "0.1.0"
+description = "X (Twitter) Bookmarks Manager — scrape, classify, and store bookmarks"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+xbm = "main:cli"
